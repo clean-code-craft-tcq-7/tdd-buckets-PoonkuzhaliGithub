@@ -6,3 +6,6 @@ int count_Range2=0;
 int currentReadings_a[] = {3,5,4,10,6,7,8,9,3,5};
 
 void GetRangeOfReading();
+void GetRangeOfReading();
+int CalculateRange1();
+int CalculateRange2();
