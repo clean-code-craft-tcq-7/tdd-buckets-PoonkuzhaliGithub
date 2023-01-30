@@ -1,6 +1,4 @@
 #include "charging.h"
-#include <stdio.h>
-#include <stdio.h>
 
 int number_of_readings = 15;
 int count_Range1=0;
