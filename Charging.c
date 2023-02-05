@@ -38,7 +38,8 @@ int main()
 {
     CalculateRange1(currentReadings_a);
     CalculateRange2(currentReadings_a);
-    printf("\ncount_Range1=%d",count_Range1);
-    printf("\ncount_Range2=%d",count_Range2);
+    printf("Range,\treadings");
+    printf("\n3-5,\t%d",count_Range1);
+    printf("\n6-10,\t%d",count_Range2);
     return 0;
 }
