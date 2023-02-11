@@ -5,6 +5,8 @@ int i =0;
 
 int CalculateRange1(int* currentRed_a[],int number_of_readings)
 {
+  int *currentReadings = &currentRed_a[0];
+  
   for(i=0;i<number_of_readings;i++)
   {
       if((currentRed_a[i] >=3) && (currentRed_a[i] <6))
