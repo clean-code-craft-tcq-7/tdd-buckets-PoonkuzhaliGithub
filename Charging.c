@@ -3,7 +3,7 @@
 
 int i =0;
 
-int CalculateRange1(int currentRed_a[],int number_of_readings)
+int CalculateRange1(int* currentRed_a[],int number_of_readings)
 {
   for(i=0;i<number_of_readings;i++)
   {
@@ -11,7 +11,7 @@ int CalculateRange1(int currentRed_a[],int number_of_readings)
   }
   return count_Range1;
 }
-int CalculateRange2(int currentRed_a[], int number_of_readings)
+int CalculateRange2(int* currentRed_a[], int number_of_readings)
 {
   for(i=0;i<number_of_readings;i++)
   {
@@ -37,8 +37,8 @@ int CountRange_Two(int current_a[])
 }
 int main()
 {
-    CalculateRange1(currentReadings_a);
-    CalculateRange2(currentReadings_a);
+    CalculateRange1(currentReadings_a,num_of_readings);
+    CalculateRange2(currentReadings_a,num_of_readings);
     printf("Range,\treadings");
     printf("\n3-5,\t%d",count_Range1);
     printf("\n6-10,\t%d",count_Range2);
