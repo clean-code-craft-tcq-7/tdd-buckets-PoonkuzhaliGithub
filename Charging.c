@@ -7,7 +7,7 @@ int CalculateRange1(int* currentRed_a[],int number_of_readings)
 {
   for(i=0;i<number_of_readings;i++)
   {
-      if((current_a[i] >=3) && (current_a[i] <6))
+      if((currentRed_a[i] >=3) && (currentRed_a[i] <6))
       {
          count_Range1 +=1;
       }
