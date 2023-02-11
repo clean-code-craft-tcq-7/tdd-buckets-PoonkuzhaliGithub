@@ -1,5 +1,5 @@
-#include "charging.h"
 #include <stdio.h>
+#include "charging.h"
 
 int CalculateRange1(int currentRed_a[])
 {
