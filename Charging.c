@@ -3,7 +3,7 @@
 
 int i =0;
 
-int CalculateRange1(int currentRed_a[])
+int CalculateRange1(int currentRed_a[],int number_of_readings)
 {
   for(i=0;i<number_of_readings;i++)
   {
@@ -11,7 +11,7 @@ int CalculateRange1(int currentRed_a[])
   }
   return count_Range1;
 }
-int CalculateRange2(int currentRed_a[])
+int CalculateRange2(int currentRed_a[], int number_of_readings)
 {
   for(i=0;i<number_of_readings;i++)
   {
@@ -21,7 +21,6 @@ int CalculateRange2(int currentRed_a[])
 }
 int CountRange_One(int current_a[])
 {
-  
   if((current_a[i] >=3) && (current_a[i] <6))
   {
     count_Range1 +=1;
