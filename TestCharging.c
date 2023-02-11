@@ -10,7 +10,7 @@ void TestCase1()
     
     int length = sizeof(currentRange[6])/sizeof(currentRange[0]);
     
-    assert(CalculateRange1(currentRange, length) == 2);
+    assert(CalculateRange1(&currentRange, length) == 2);
 }
 
 int main()
