@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "Charging.h"
 
+int i =0;
+
 int CalculateRange1(int currentRed_a[])
 {
   for(i=0;i<number_of_readings;i++)
