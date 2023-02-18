@@ -1,4 +1,4 @@
-#include "sensor.h"
+#include "Sensor.h"
 
 const mcalConfig ADC_SensorConfig[1] = {{4095, 10}};
 
