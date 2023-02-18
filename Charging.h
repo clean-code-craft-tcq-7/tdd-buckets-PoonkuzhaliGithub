@@ -1,10 +1,17 @@
-#include "stdio.h"
+#include <stdio.h>
+  
+typedef struct 
+{
+	int startRange;
+	int endRange;
+	int rangeCounter;
+} current_rangeFinder_s;
 
-int count_Range1=0;
-//int count_Range2=0;
-int* currentReadings_a = 0;
-int num_of_readings = 0;
+extern current_rangeFinder_s current_rangeList[];
 
-int CountRange_Two(int current_a[]);
-int CalculateRange1(int* currentRed_a[],int number_of_readings);
-//int CalculateRange2(int* currentRed_a[], int number_of_readings);
+void sortGivenIndexPosition(int *Range, int noOfElements, int received_position);
+void sort_currentRangeList(int *get_currentRanges, int no_Of_availableReadings);
+int get_noofRanges(int *getsortRange, int no_Of_Elements);
+void get_currentRangesandCounter(int *getsorted_currentRange, int no_Of_Elements);
+int find_currentRangeList(int *received_currentRanges, int no_Of_Elements);
+void update_RangefinderStruct_Defaultvalue(int no_of_currentRanges);
