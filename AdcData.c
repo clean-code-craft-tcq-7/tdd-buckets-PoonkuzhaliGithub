@@ -1,6 +1,6 @@
 #include <math.h>
-#include "sensor_Config.h"
-#include "currentRangeFinder.h"
+#include "Sensor.h"
+#include "RangeFinder.h"
 
 int convertedAmpereValue = 0xFFFF;
 int rangeof_convertedAmpValue[NO_OF_CONVERETD_AMP_VALUE] = {0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF};
