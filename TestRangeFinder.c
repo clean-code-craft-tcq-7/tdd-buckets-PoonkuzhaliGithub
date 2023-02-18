@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "RangeFinder.h"
-#include "sensor.h"
+#include "Sensor.h"
 
 /* sorting given current Ranges */
 void Test_Case0()
