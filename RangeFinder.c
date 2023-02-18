@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "currentRangeFinder.h"
+#include "RangeFinder.h"
 
 current_rangeFinder_s current_rangeList[100];
 
